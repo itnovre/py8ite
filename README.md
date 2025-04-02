@@ -1,4 +1,4 @@
-# Bite() - The Ultimate Python Utility Function
+# bite() - The Ultimate Python Utility Function
 
 ![PyPI version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.7%2B-brightgreen.svg)
@@ -7,12 +7,12 @@
 
 ## What's This All About?
 
-Look, I've spent countless nights debugging Python code that crashed for stupid reasons. We've all been there - unexpected edge cases, weird type errors, memory issues... That's why I built `Bite()`. It's not just another utility - it's the Swiss Army knife I wish I'd had years ago.
+Look, I've spent countless nights debugging Python code that crashed for stupid reasons. We've all been there - unexpected edge cases, weird type errors, memory issues... That's why I built `bite()`. It's not just another utility - it's the Swiss Army knife I wish I'd had years ago.
 
 ```python
-from py8ite import Bite
+from py8ite import bite
 
-Bite()  # That's it. Seriously.
+bite()  # That's it. Seriously.
 ```
 
 ## Why I Made This
@@ -24,7 +24,7 @@ After years of writing the same error handling code over and over, I finally sna
 - Network requests failing because someone's WiFi hiccuped
 - Hours wasted on the same debugging patterns
 
-So yeah, I built `Bite()` to fix all that mess. One import, one function call, and your code suddenly becomes way more robust.
+So yeah, I built `bite()` to fix all that mess. One import, one function call, and your code suddenly becomes way more robust.
 
 ## The Good Stuff
 
@@ -55,7 +55,7 @@ So yeah, I built `Bite()` to fix all that mess. One import, one function call, a
 
 ## How It Actually Works
 
-When you call `Bite()`, this happens behind the scenes:
+When you call `bite()`, this happens behind the scenes:
 
 1. It wraps EVERY function it can find with layers of helpful stuff
 2. Starts tracking performance in the background
@@ -109,7 +109,7 @@ If something crashes:
 
 ## When To Use This Thing
 
-I use `Bite()` for:
+I use `bite()` for:
 
 - During development to get better debug info
 - In data science notebooks to prevent crashes
@@ -122,9 +122,9 @@ I use `Bite()` for:
 ### Basic Usage
 
 ```python
-from py8ite import Bite
+from py8ite import bite
 
-Bite()  # One line, that's it
+bite()  # One line, that's it
 
 # Now everything just works better
 data = process_large_dataset()
@@ -135,7 +135,7 @@ send_results_to_api(result)
 ### Finding Performance Issues
 
 ```python
-# After running your code with Bite()
+# After running your code with bite()
 stats = bite_stats()
 
 # Find what's slow
@@ -153,9 +153,9 @@ for func_name, metrics in slowest_functions:
 ### Using It Temporarily
 
 ```python
-from py8ite import Bite
+from py8ite import bite
 
-Bite()  # Turn on the magic
+bite()  # Turn on the magic
 
 # Run your code with extra stability
 process_data()
@@ -193,11 +193,11 @@ Yeah, but test it first. You can always call `bite_shutdown()` to turn it off if
 
 ### How's this different from cProfile?
 
-Dedicated profilers give more details, but `Bite()` is always on with zero config. I use both for different things.
+Dedicated profilers give more details, but `bite()` is always on with zero config. I use both for different things.
 
 ### Will it work with my existing code?
 
-Absolutely. Just import and call `Bite()` at the start. No code changes needed.
+Absolutely. Just import and call `bite()` at the start. No code changes needed.
 
 ## Real-World Results
 
@@ -224,7 +224,7 @@ MIT License - see the [LICENSE](LICENSE) file.
 
 ## Star This Project!
 
-If `Bite()` saves you time or headaches, please star the repo! It helps others find it and keeps me motivated to improve it.
+If `bite()` saves you time or headaches, please star the repo! It helps others find it and keeps me motivated to improve it.
 
 ---
 
