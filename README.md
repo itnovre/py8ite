@@ -10,7 +10,7 @@
 Look, I've spent countless nights debugging Python code that crashed for stupid reasons. We've all been there - unexpected edge cases, weird type errors, memory issues... That's why I built `bite()`. It's not just another utility - it's the Swiss Army knife I wish I'd had years ago.
 
 ```python
-from bite import bite
+from pybite import bite
 
 bite()  # That's it. Seriously.
 ```
@@ -122,7 +122,7 @@ I use `bite()` for:
 ### Basic Usage
 
 ```python
-from bite import bite
+from pybite import bite
 
 bite()  # One line, that's it
 
@@ -153,7 +153,7 @@ for func_name, metrics in slowest_functions:
 ### Using It Temporarily
 
 ```python
-from bite import bite
+from pybite import bite
 
 bite()  # Turn on the magic
 
@@ -211,7 +211,7 @@ In my projects, I've seen:
 ## Get It Now
 
 ```bash
-pip install bite
+pip install pybite
 ```
 
 ## Help Out
