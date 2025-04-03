@@ -1,4 +1,4 @@
-# bite() - The Ultimate Python Utility Function
+# bite() | gross_bite() - The Ultimate Python Utility Function- The Ultimate Python Utility Function
 
 ![PyPI version](https://img.shields.io/badge/version-1.0.6-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.7%2B-brightgreen.svg)
